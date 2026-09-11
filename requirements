@@ -1,1 +1,126 @@
+ Requisitos de Segurança
 
+## SR-001 — [Senhas mais fortes e seguras]
+
+**Requisito:**
+Senha com no minino 8 caracteres contendo letras maiusculas, letras minusculas e tambem simbolos, de preferencia sem ser nome ou data ]
+
+**Categoria:**
+[Autenticação]
+
+**Prioridade:**
+[Alta]
+
+**Motivo:**
+[Para que nao aconteça que outras pessoas possam conseguir facilmente accessar sua conta atraves de uma senha facil.]
+
+---
+
+## SR-002 — [Autenticação em dois fatores]
+
+**Requisito:**
+[Usar um meio antes de logar para pedir autorização, seja por codigo enviado no email ou telefone ou alguma pergunta de segurança]
+
+**Categoria:**
+[Autenticação]
+
+**Prioridade:**
+[Alta]
+
+**Motivo:**
+[Para quem for usar de ma fé para acessar sua conta voce ira receber uma mensagem que tem outra pessoa tentanto realizar o login ou pedindo para voce fazer a autenticação de dois fatores]
+
+---
+
+## SR-003 — [Autorizaçao para acessar dados]
+
+**Requisito:**
+[Criar uma Lei geral de proteção de dados]
+**Categoria:**
+[Dados]
+
+**Prioridade:**
+[Alto]
+
+**Motivo:**
+[Para que outras pessoas nao consiga acessar seus dados pois estarão criptografados e tambem havera um controle sobre]
+
+---
+
+## SR-004 — [Documentos indesejaveis]
+
+**Requisito:**
+[Plataforma analisar os arquivos e bloquear certos tipos de arquivo]
+
+**Categoria:**
+[Autorização]
+
+**Prioridade:**
+[Media]
+
+**Motivo:**
+[Isso evitara que docuemntos sejam enviados de forma que possam prejudicar o sistema e tambem ajudara os professores e alunos a nao ser enganados por certos arquivos]
+
+---
+
+## SR-005 — [Limite de arquivo]
+
+**Requisito:**
+[Nao deixar enviar arquivos do tamanho que voce quiser]
+
+**Categoria:**
+[Upload]
+
+**Prioridade:**
+[Media]
+
+**Motivo:**
+[As vezes alunos e professores acabam enviados varios arquivos ou arquivos com tamanho muito grande assim prejudicando a todos e o sistema]
+
+---
+
+## SR-006 — [Registro de Logins]
+
+**Requisito:**
+[Registar logins dos alunos]
+
+**Categoria:**
+[Dados]
+
+**Prioridade:**
+[Media]
+
+**Motivo:**
+[Criar uma maneira para quem administra o sistema ter acesso aos logins dos alunos para que caso haja algo poder consultar ou ajudar o aluno na recuperação do seu login.]
+
+---
+
+## SR-007 — [Expirar Sessão]
+
+**Requisito:**
+[Colocar um maximo de tempo de login/sessão]
+
+**Categoria:**
+[Sessão]
+
+**Prioridade:**
+[Alta]
+
+**Motivo:**
+[Delimitar uma certa quantidade de tempo para que caso o usuario saia e deixa a sessão aberta ele ou atualiza e sai do login ou acaba deslogando automaticamente]]
+
+---
+
+## SR-008 — [Erro no sistema]
+
+**Requisito:**
+[Apresentar erros somente para os admin]
+
+**Categoria:**
+[Logs]
+
+**Prioridade:**
+[Critico]
+
+**Motivo:**
+[Apresentar os erros somente para os admin para que somente eles possam vizualizar e assim tentar resolverem ou entrar em contato com o pessoal responsavel para isso, assim enviando os erros que foram apresentados nos registros(LOGS)]
